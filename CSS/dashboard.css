@@ -15,10 +15,6 @@ body {
     min-height: 100vh;
 }
 
-/* =========================
-   MENU LATERAL
-========================= */
-
 .sidebar {
     width: 230px;
     min-height: 100vh;
@@ -70,16 +66,12 @@ body {
     margin-top: auto;
 }
 
-/* =========================
-   CONTEÚDO
-========================= */
 
 .conteudo {
     flex: 1;
     padding: 32px 40px;
 }
 
-/* CABEÇALHO */
 
 header {
     display: flex;
@@ -106,9 +98,7 @@ header p {
     font-size: 14px;
 }
 
-/* =========================
-   CARDS
-========================= */
+
 
 .cards {
     display: grid;
@@ -156,9 +146,6 @@ header p {
     font-size: 25px;
 }
 
-/* =========================
-   CONTROLE DE ESTOQUE
-========================= */
 
 .estoque {
     background: white;
@@ -199,9 +186,6 @@ header p {
     background: #183477;
 }
 
-/* =========================
-   TABELA
-========================= */
 
 table {
     width: 100%;
@@ -227,8 +211,6 @@ tbody tr:hover {
     background: #f8f9fb;
 }
 
-/* STATUS */
-
 .status {
     display: inline-block;
     padding: 5px 10px;
@@ -250,10 +232,6 @@ tbody tr:hover {
     background: #fde5e6;
     color: #b4232c;
 }
-
-/* =========================
-   MOVIMENTAÇÕES
-========================= */
 
 .movimentacoes {
     display: grid;
@@ -279,10 +257,6 @@ tbody tr:hover {
     padding: 11px 0;
     border-bottom: 1px solid #edf0f3;
 }
-
-/* =========================
-   RESPONSIVIDADE
-========================= */
 
 @media (max-width: 1000px) {
 
