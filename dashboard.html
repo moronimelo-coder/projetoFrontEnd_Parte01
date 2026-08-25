@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StockPastilhas - Dashboard</title>
+
+    <link rel="stylesheet" href="../ProjetoFront-end/CSS/dashboard.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- MENU LATERAL -->
+        <aside class="sidebar">
+
+            <h1>StockPastilhas</h1>
+
+            <p class="subtitulo">
+                Sistema de Estoque
+            </p>
+
+            <nav>
+
+                <a href="#" class="ativo">
+                    📊 Dashboard
+                </a>
+
+                <a href="#">
+                    📦 Pastilhas
+                </a>
+
+                <a href="#">
+                    🏭 Fabricantes
+                </a>
+
+                <a href="#">
+                    🚚 Fornecedores
+                </a>
+
+                <a href="#">
+                    ➕ Entradas
+                </a>
+
+                <a href="#">
+                    ➖ Saídas
+                </a>
+
+                <a href="#">
+                    ⚠️ Alertas
+                </a>
+
+                <a href="#">
+                    📋 Histórico
+                </a>
+
+                <a href="#">
+                    📊 Relatórios
+                </a>
+
+            </nav>
+
+            <a href="#" class="sair">
+                🚪 Sair
+            </a>
+
+        </aside>
+
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main class="conteudo">
+
+            <header>
+
+                <div>
+                    <h2>Dashboard</h2>
+
+                    <p>
+                        Visão geral da situação do estoque
+                    </p>
+                </div>
+
+                <div class="usuario">
+                    👤 Administrador
+                </div>
+
+            </header>
+
+
+            <!-- INDICADORES -->
+
+            <section class="cards">
+
+                <div class="card">
+
+                    <div class="icone">📦</div>
+
+                    <div>
+                        <span>Total de pastilhas</span>
+                        <strong>120</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="card normal">
+
+                    <div class="icone">🟢</div>
+
+                    <div>
+                        <span>Estoque normal</span>
+                        <strong>95</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="card atencao">
+
+                    <div class="icone">🟡</div>
+
+                    <div>
+                        <span>Estoque em atenção</span>
+                        <strong>18</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="card critico">
+
+                    <div class="icone">🔴</div>
+
+                    <div>
+                        <span>Estoque crítico</span>
+                        <strong>7</strong>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ESTOQUE -->
+
+            <section class="estoque">
+
+                <div class="titulo-section">
+
+                    <div>
+                        <h3>Controle de estoque</h3>
+
+                        <p>
+                            Situação atual das pastilhas cadastradas
+                        </p>
+                    </div>
+
+                    <button>
+                        + Registrar movimentação
+                    </button>
+
+                </div>
+
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>Material</th>
+                            <th>Estoque atual</th>
+                            <th>Estoque mínimo</th>
+                            <th>Situação</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Pastilha A</td>
+                            <td>50</td>
+                            <td>10</td>
+                            <td>
+                                <span class="status normal-status">
+                                    🟢 Normal
+                                </span>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>Pastilha B</td>
+                            <td>15</td>
+                            <td>10</td>
+                            <td>
+                                <span class="status atencao-status">
+                                    🟡 Atenção
+                                </span>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>Pastilha C</td>
+                            <td>5</td>
+                            <td>10</td>
+                            <td>
+                                <span class="status critico-status">
+                                    🔴 Crítico
+                                </span>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+
+            <!-- MOVIMENTAÇÕES -->
+
+            <section class="movimentacoes">
+
+                <div class="movimentacao-card">
+
+                    <h3>➕ Entradas recentes</h3>
+
+                    <p>
+                        Pastilha A — 20 unidades
+                    </p>
+
+                    <p>
+                        Pastilha B — 10 unidades
+                    </p>
+
+                    <p>
+                        Pastilha C — 5 unidades
+                    </p>
+
+                </div>
+
+
+                <div class="movimentacao-card">
+
+                    <h3>➖ Saídas recentes</h3>
+
+                    <p>
+                        Pastilha A — 8 unidades
+                    </p>
+
+                    <p>
+                        Pastilha B — 5 unidades
+                    </p>
+
+                    <p>
+                        Pastilha C — 3 unidades
+                    </p>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+<link rel="stylesheet" href="../ProjetoFront-end/index.html">
+</body>
+
+</html>
