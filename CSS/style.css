@@ -87,10 +87,6 @@ button{
     transition:0.3s;
 }
 
-button:hover{
-    background:#1d4ed8;
-}
-
 #mensagem{
     margin-top:15px;
     text-align:center;
