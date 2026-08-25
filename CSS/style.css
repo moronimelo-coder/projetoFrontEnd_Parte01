@@ -16,7 +16,7 @@ body{
 .container{
     width:900px;
     height:500px;
-    background:rgb(255, 1, 1);
+    background:rgb(255, 253, 253);
     border-radius:20px;
     overflow:hidden;
     display:flex;
@@ -79,16 +79,12 @@ button{
     width:100%;
     padding:14px;
     border:none;
-    background:#1e40af;
+   background:#a8b0b3;
     color:white;
     font-size:16px;
     border-radius:8px;
     cursor:pointer;
     transition:0.3s;
-}
-
-button:hover{
-    background:#1d4ed8;
 }
 
 #mensagem{
