@@ -16,29 +16,23 @@ body{
 .container{
     width:900px;
     height:500px;
-<<<<<<< HEAD
     background:rgb(151, 216, 205);
     border-radius:20px;
     overflow:hidden;
     display:flex;
     box-shadow:0 20px 50px rgba(15, 15, 15, 0.3);
-=======
     background:rgb(255, 253, 253);
     border-radius:20px;
     overflow:hidden;
     display:flex;
     box-shadow:0 20px 50px rgba(0,0,0,0.3);
->>>>>>> 0e20ca7e4d252a6000dc3e440934e7f970c87b61
 }
 
 .left{
     width:50%;
     background-image: url(../IMG/projeto_img.png);
-<<<<<<< HEAD
     color:rgb(10, 10, 10);
-=======
     color:rgb(5, 5, 5);
->>>>>>> 0e20ca7e4d252a6000dc3e440934e7f970c87b61
     background-size: cover;
     background-position: center;
     justify-content:center;
@@ -88,32 +82,27 @@ body{
 }
 
 button{
-<<<<<<< HEAD
+
     width:100%;
     padding:14px;
     border:none;
     background:#1e40af;
     color:white;
-=======
     width:50%;
     padding:14px;
     border:none;
     background:#a8b0b3;
     color:rgb(0, 17, 255);
->>>>>>> 0e20ca7e4d252a6000dc3e440934e7f970c87b61
     font-size:16px;
     border-radius:8px;
     cursor:pointer;
     transition:0.3s;
 }
 
-<<<<<<< HEAD
+  
 button:hover{
     background:#1d4ed8;
 }
-=======
-
->>>>>>> 0e20ca7e4d252a6000dc3e440934e7f970c87b61
 
 #mensagem{
     margin-top:15px;
